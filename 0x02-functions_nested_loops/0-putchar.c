@@ -1,17 +1,20 @@
-#include "_putchar.h"
+#include "main.h"
+
 /**
- * main - A c program to print _putchar
- * Description: this program prints _putchar followed by new line
- * Return: return 0 for success
+ * main -  prints _putchar, followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-char p[] = "_putchar";
-int i = 0;
-while (i < 8)
-{
-_putchar (p[i]);
-i++;
-}
-return (0);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
+	return (0);
 }
