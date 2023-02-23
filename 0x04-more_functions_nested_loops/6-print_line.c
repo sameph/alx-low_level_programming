@@ -1,28 +1,18 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
- * more_numbers - Print numbers between 0 to 14 incl.
- *
+ * print_line - Print line dependent on the integer n.
+ * @n : The number of '_' characters to use
  * Return: Void.
  */
-void more_numbers(void)
+void print_line(int n)
 {
 	int i;
-	int x;
 
-	for (x = 0; x < 10; x++)
+	for (i = 0; i < n; i++)
 	{
-		i = 0;
-		while (i <= 14)
-		{
-			if (i >= 10)
-			{
-				_putchar(i / 10 + '0');
-			}
-				_putchar(i % 10 + '0');
-			i++;
-		}
-	_putchar('\n');
+		_putchar('_');
 	}
+	_putchar('\n');
 }
