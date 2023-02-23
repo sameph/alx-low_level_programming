@@ -1,27 +1,28 @@
 #include "holberton.h"
+#include <stdio.h>
 
 /**
- * more_numbers - Print 10x the numbers 0-14
+ * more_numbers - Print numbers between 0 to 14 incl.
  *
- * Return: 10x the numbers 0-14
+ * Return: Void.
  */
-
 void more_numbers(void)
 {
-	int a, b;
+	int i;
+	int x;
 
-	for (a = 0; a < 10; a++)
+	for (x = 0; x < 10; x++)
 	{
-		for (b = 0; b <= 14; b++)
+		i = 0;
+		while (i <= 14)
 		{
-			if (b > 9)
+			if (i >= 10)
 			{
-				_putchar((b / 10) + '0');
+				_putchar(i / 10 + '0');
 			}
-
-			_putchar((b % 10) + '0');
+				_putchar(i % 10 + '0');
+			i++;
 		}
-
-		_putchar('\n');
+	_putchar('\n');
 	}
 }
