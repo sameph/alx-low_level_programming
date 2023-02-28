@@ -4,7 +4,7 @@
  *print_array - prints n ekements of an array + newline
  *
  *@a:input
- *@n:no. of elements
+ *@n:number of elements
  *
  *Return:void
  *
