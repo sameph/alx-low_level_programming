@@ -5,6 +5,7 @@
  * @s: is a string that points to n
  * @b: a constant byte
  * @n: the first bytes of memory area
+ * Return: return character
  */
 char *_memset(char *s, char b, unsigned int n)
 {
