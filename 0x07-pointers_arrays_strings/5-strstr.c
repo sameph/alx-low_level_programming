@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <string.h>
 /**
  * _strstr - a function that finds a string match
  * @haystack: a pointer to the main string
