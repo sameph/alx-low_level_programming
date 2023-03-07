@@ -1,4 +1,4 @@
-#includec "main.h"
+#include "main.h"
 /**
  * print_diagsums - prints the sum of two diagonals
  * @a: the 2D array
