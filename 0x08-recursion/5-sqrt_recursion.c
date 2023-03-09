@@ -6,11 +6,13 @@
  */
 int _sqrt_recursion(int n)
 {
-	return (sqroot(n, 1));
+	int i;
 
+	i = sqroot(n, 1);
+	return (i);
 }
 /**
- * sqrt - a function to compute square root
+ * sqroot - a function to compute square root
  * @n: number to be computed
  * @i: tester
  * Return: return square root of integer
