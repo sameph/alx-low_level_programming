@@ -1,1 +1,1 @@
-A project about singly linked list
+this project is about singly linked list
