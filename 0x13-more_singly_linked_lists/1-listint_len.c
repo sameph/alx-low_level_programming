@@ -1,9 +1,10 @@
 #include "lists.h"
+
 /**
- * listint_len - function to print length of a list
- * @h: a pointer to singly linked list
+ * listint_len - returns the number of elements in a linked lists
+ * @h: linked list
  *
- * Return: return length of a list
+ * Return: number of nodes
  */
 size_t listint_len(const listint_t *h)
 {
@@ -14,5 +15,6 @@ size_t listint_len(const listint_t *h)
 		len++;
 		h = h->next;
 	}
+
 	return (len);
 }
