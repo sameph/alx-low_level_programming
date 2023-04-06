@@ -7,15 +7,15 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	if (b == NULL)
+	if (!b)
 		return (0);
 	int k;
 	unsigned int conv = 0;
 
 	for (k = 0; b[k]; k++)
 	{
-		if (b[k] != '0' || b[k] != '1')
-			return (1);
+		if (b[k] < '0' || b[k] > '1')
+			return (0);
 		conv = 2 * conv + (b[k] - '0');
 	}
 	return (conv);
