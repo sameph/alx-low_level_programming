@@ -7,7 +7,7 @@
  *
  * Return: return 0(success), (-1) othewise
  */
- 
+
 int clear_bit(unsigned long int *n, unsigned int index)
 {
 	if (index > sizeof(n) * 8)
