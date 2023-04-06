@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * clear_bit -  a function that sets the value of a bit to 0 at a given index
  * @n: a pointer to a number

@@ -5,7 +5,7 @@
  * to get from one number to another
  * @n: parameter
  * @m: destiny
- * Returnreturn 0 for success and (-1) otherwise
+ * Return: return 0 for success and (-1) otherwise
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
