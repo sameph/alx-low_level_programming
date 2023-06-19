@@ -1,4 +1,2 @@
-#ifndef MAIN_H
-#define MAIN_H
+#!/bin/bash
 gcc -shared -fPIC -o liball.so mylib.c
-#endif
