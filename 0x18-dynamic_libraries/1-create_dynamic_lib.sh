@@ -1,2 +1,4 @@
 #!/bin/bash
-gcc -shared -fPIC -o liball.so mylib.c
+gcc -c -Wall -Werror -fpic *.c
+gcc -shared -o liball.so *.o
+
